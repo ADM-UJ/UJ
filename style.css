@@ -245,6 +245,20 @@ h2 {
 .c1-header .c1-nav > ul > li.c1-orange .menu-button:hover {
   background-color: #e4a87a;
 }
+.c1-header .c1-nav > ul > li.c1-o1:hover {
+  border-bottom: 4px solid #ea9858;
+  color: #ea9858;
+}
+.c1-header .c1-nav > ul > li.c1-o1:hover .c1-submenu {
+  border-top: 1px solid #ea9858;
+  border-bottom: 6px solid #ea9858;
+}
+.c1-header .c1-nav > ul > li.c1-o1:hover .menu-button {
+  background-color: #ea9858;
+}
+.c1-header .c1-nav > ul > li.c1-o1 .menu-button:hover {
+  background-color: #e4a87a;
+}
 /*turquoise ,,  */
 .c1-header .c1-nav > ul > li.c1-turquoise:hover {
   border-bottom: 4px solid #927caf;
