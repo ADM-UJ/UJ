@@ -1518,13 +1518,7 @@ a.c1-addr-mail:hover {
 .lib-desc {
   text-align: center;
 }
-.c1-header a, .c1-header a:hover, .c1-header a:active{
-  outline: 0;
-  background: transparent;
-  text-decoration: none; 
-  color: inherit;
-  
-}
+
 span#SiteMapPath1 {
     display: none;
 }
