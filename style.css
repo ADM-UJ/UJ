@@ -1541,4 +1541,5 @@ a.c1-addr-mail:hover {
 }
 span#SiteMapPath1 , span#ContentPlaceHolder1_Label3 ,span#ContentPlaceHolder1_lbllastModified  {
     display: none;
+    display: block;
 }
