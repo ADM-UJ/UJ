@@ -1539,6 +1539,6 @@ a.c1-addr-mail:hover {
   color: inherit;
   
 }
-span#SiteMapPath1 , span#ContentPlaceHolder1_Label3 , span#ContentPlaceHolder1_lbllastModified  {
+span#SiteMapPath1,span#ContentPlaceHolder1_Label3,span#ContentPlaceHolder1_lbllastModified{
     display: none;
 }
