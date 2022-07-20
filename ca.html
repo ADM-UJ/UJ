@@ -11,18 +11,109 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <link rel="stylesheet" href="https://adm-uj.github.io/UJ/style.css" />
-        <title>عمادة القبول والتسجيل جامعة جدة</title>
-        <script>
-      $(function () {
-        $("#L-Navbar").load("https://adm-uj.github.io/UJ/nav.html");
-      });
-    </script>
-    </head>
-    <body style="direction: rtl; text-align: right;">
-        <div class="c1-container">
-        <div id="L-Navbar">&nbsp;</div>
-        <div class="body-content">
-<div class="col-sm-12">
+  <!--<link rel="stylesheet" href="style.css" />-->
+  <title>عمادة القبول والتسجيل جامعة جدة</title>
+</head>
+
+<body>
+  <!--<div class="c1-container">-->
+  <header class="c1-header">
+    <nav class="c1-nav">
+      <div class="c1-logo">
+        <a href="https://darnj.uj.edu.sa/Default.aspx?Site_ID=1424&Lng=AR"><img
+            src="https://www.uj.edu.sa/Files/991/Galleries/7289/56147_uj.png"></a>
+      </div>
+      <ul>
+        <li class="c1-orange">
+          <span>القبول
+            <em class="fa fa-chevron-down" style="font-size: 12px"></em>
+          </span>
+          <div class="c1-submenu">
+            <div class="m-row">
+              <div class="m-col">
+           <ul>
+                  <li><a href="https://adm.uj.edu.sa" target="_blank">بوابة القبول</a></li>
+                  <li><a href="https://adm.uj.edu.sa/JTransfer/" target="_blank">بوابة التحويل الخارجي</a></li>
+                  <li><a href="#">دليل القبول</a></li>
+                  <li><a href="https://darnj.uj.edu.sa/Pages-adm.aspx">شروط وآلية القبول </a></li>
+                  <li><a href="https://darnj.uj.edu.sa/Pages-percentage.aspx">حساب الموزونة </a></li>
+                  <li><a href="#"> قنوات التواصل </a></li>
+                  <li><a href="https://ujadmission.tawk.help"> الأسئلة والاستفسارات الشائعة </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="c1-turquoise">
+          <span> العمادة
+            <em class="fa fa-chevron-down" style="font-size: 12px"></em>
+          </span>
+          <div class="c1-submenu">
+            <div class="m-row">
+              <div class="m-col">
+                <ul>
+                  <li><a href="https://darnj.uj.edu.sa/Pages-dean.aspx">كلمة العميد </a></li>
+                  <li><a href="#">الهيكل التنظيمي</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="c1-gold">
+          <span>الخدمات الالكترونية
+            <em class="fa fa-chevron-down" style="font-size: 12px"></em>
+          </span>
+          <div class="c1-submenu">
+            <div class="m-row">
+              <div class="m-col">
+                <ul>
+                  <li>
+                    <a href="https://adm.uj.edu.sa/ujgraduate/" target="_blank">الاستعلام عن خريج </a>
+                  </li>
+                  <li><a href="https://examgate.uj.edu.sa/" target="_blank"> منصة جدول الاختبارات</a></li>
+                  <li><a href="https://darnj.uj.edu.sa/Pages-appo.aspx" target="_blank">حجز موعد</a></li>
+                  <li><a href="https://ssb.uj.edu.sa/" target="_blank"> الخدمات الذاتية للطلاب وأعضاء هيئة التدريس</a></li>
+                  <li><a href="https://darnj.uj.edu.sa/Pages-elec.aspx">أدلة استخدام الخدمات الإلكترونية</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="c1-lightblue">
+          <span>اللوائح التنظيمية
+            <em class="fa fa-chevron-down" style="font-size: 12px"></em>
+          </span>
+          <div class="c1-submenu">
+            <div class="m-row">
+              <div class="m-col">
+                <ul>
+                  <li>
+                    <a href="https://darnj.uj.edu.sa/Files/1424/Files/154827_rules_.pdf" target="_blank">لائحة الدراسة والاختبارات </a>
+                  </li>
+                  <li><a href="https://darnj.uj.edu.sa/Files/1424/Files/154827_ttt.pdf " target="_blank"> التسكين والتخصيص والتحويل الداخلي والتحويل من خارج الجامعة</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="c1-green">
+          <a href="https://darnj.uj.edu.sa/Pages-ca.aspx">التقويم الاكاديمي</a>
+        </li>
+        <li class="c1-o1">
+          <a href="#">اتصل بنا</a>
+        </li>
+
+      </ul>
+
+    </nav>
+  </header>
+
+  <body style="direction: rtl; text-align: right;">
+    <div class="c1-container">
+      <div id="L-Navbar">&nbsp;</div>
+      <div class="body-content">
+  
+      <div class="col-sm-12">
           
 
 
@@ -64,7 +155,7 @@
     <script>
       $('.form-control').on('input', function (event) {
         var regex =
-          /^[0-9.]*$/;
+          /^[0-9]*$/;
         if (!regex.test(this.value)) this.value = '';
       });
       function calc() {
@@ -94,13 +185,11 @@
           $('#result_lbl').val("لم تقم بإدخال معلومات صحيحة")
       }
     </script>
-                      <!-- / div.row end -->
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        </div>
-        </div>
-        </div>
-    </body>
+            </div>
+
+</div>
+
+</div>
+</body>
+
 </html>
-
-
-
