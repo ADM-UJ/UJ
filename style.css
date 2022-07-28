@@ -1554,9 +1554,11 @@ span#SiteMapPath1, span#ContentPlaceHolder1_Label3, span#ContentPlaceHolder1_lbl
   height: 40px;
 }
 #wsp{
-        text-decoration: none !important;
+    background: transparent;
+  text-decoration: none; 
 }	
 
-.bi bi-whatsapp{
-        text-decoration: none !important;
+.bi, bi-whatsapp{
+  background: transparent;
+  text-decoration: none; 
 }
