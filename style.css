@@ -1570,5 +1570,6 @@ span#SiteMapPath1, span#ContentPlaceHolder1_Label3, span#ContentPlaceHolder1_lbl
 }
 
 .my-float{
+        text-decoration:none;
 	margin-top:16px;
 }
